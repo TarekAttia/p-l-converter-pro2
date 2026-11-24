@@ -12,12 +12,18 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Base44 App" },
-      { name: "description", content: "A full-stack Base44 app built with TanStack Start." },
+      { title: "P&L Bridge — Tableau to Power BI" },
+      {
+        name: "description",
+        content:
+          "Rebuild a Tableau P&L table 1:1 and export a Power BI project with the semantic model, DAX measures and slicers already generated.",
+      },
     ],
     // No icon link: the platform adds the app's logo when serving.
     links: [
       { rel: "stylesheet", href: appCss },
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
     ],
   }),
   errorComponent: DefaultCatchBoundary,

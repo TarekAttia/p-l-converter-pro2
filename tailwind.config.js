@@ -46,6 +46,17 @@ export default {
   			border: 'hsl(var(--border))',
   			input: 'hsl(var(--input))',
   			ring: 'hsl(var(--ring))',
+  			panel: 'hsl(var(--panel))',
+  			surface: 'hsl(var(--surface))',
+  			hairline: 'hsl(var(--hairline))',
+  			codebg: 'hsl(var(--code-bg))',
+  			codefg: 'hsl(var(--code-fg))',
+  			codestrong: 'hsl(var(--code-strong))',
+  			negative: 'hsl(var(--negative))',
+  			ink: {
+  				DEFAULT: 'hsl(var(--ink))',
+  				muted: 'hsl(var(--ink-muted))'
+  			},
   			chart: {
   				'1': 'hsl(var(--chart-1))',
   				'2': 'hsl(var(--chart-2))',
